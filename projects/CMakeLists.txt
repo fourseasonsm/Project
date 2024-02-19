@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.2...3.27.5)
 
-project(kmms_prog_2023)
+project(my_project)
 
 enable_testing()
 add_subdirectory(lib/googletest)
@@ -12,5 +12,6 @@ add_subdirectory(base_theory_p1)
 add_subdirectory(base_theory_tasks_p1)
 add_subdirectory(obuchaika)
 add_subdirectory(unit_test_example)
+add_subdirectory(creating_menu)
 
 set(CMAKE_SUPPRESS_REGENERATION true)
